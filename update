@@ -3,8 +3,8 @@
 if ping ping.xrouter.us -c 1 | grep -c "64 bytes from" ; then  
  {
 #privoxy update
-wget https://raw.github.com/xrouterservice/xrouter/master/update -O /etc/rc.button/wps
-wget https://raw.github.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
+wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/update -O /etc/rc.button/wps
+wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
 
   }
  else
