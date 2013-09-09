@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
+    <meta>
+        <author>Harv.c</author>
+        <sampleQuery>select * from {table} where url="http://www.tudou.com/v/CTBL4A12JGc/v.swf" and referer="http://e.weibo.com/tudoupebble"</sampleQuery>
+    </meta>
+    <bindings>
+        <select itemPath="" produces="json">
+            <inputs>
+                <key id="url" type="xs:string" paramType="variable" required="true" />
+                <key id="referer" type="xs:string" paramType="variable" required="false" />
+            </inputs>
+            <execute><![CDATA[
+                    var req = y.rest(url);
+                    if(referer) req.header("Referer", referer);
+                    response.object = req.followRedirects(false).get().headers.location;
+                ]]>
+            </execute>
+        </select>
+    </bindings>
+</table>
