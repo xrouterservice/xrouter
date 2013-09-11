@@ -1319,7 +1319,7 @@ poster.yeyou.com/auto/*
 .zerodm.net/js/ads/zxdmxz.js
 
 {+redirect{https://haoutil.googlecode.com/svn/trunk/youku/loader.swf}}
-static.youku.com/.*/v/swf/loader.swf
+static.youku.com/.*/v/swf/.*.swf
 
 {+redirect{https://haoutil.googlecode.com/svn/trunk/player/ku6.swf}}
 player.ku6cdn.com/default/common/player/.*/player.swf
