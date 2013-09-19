@@ -30,6 +30,8 @@ fqrouter.tumblr.com
 .google.com.*/url?
 #.google.com/search?
 #.google.com/url?
+.google.com/sorry/?
+.google.com.hk/sorry/?
 .googleusercontent.com
 .feeds.feedburner.com
 .feedproxy.google.com
