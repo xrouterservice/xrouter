@@ -1249,7 +1249,7 @@ poster.yeyou.com/auto/*
 .zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
 { +filter{adblock} }
 *
-#白名单
+#白名�?
 { -block }
 .bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 .ad.ourgame.com/cgi-bin/insertflasha.js
@@ -1318,8 +1318,8 @@ poster.yeyou.com/auto/*
 .linuxidc.com/linuxfile/linux.js
 .zerodm.net/js/ads/zxdmxz.js
 
-{+redirect{https://haoutil.googlecode.com/svn/trunk/youku/loader.swf}}
-static.youku.com/.*/v/swf/.*.swf
+#{+redirect{https://haoutil.googlecode.com/svn/trunk/youku/loader.swf}}
+#static.youku.com/.*/v/swf/.*.swf
 
 {+redirect{https://haoutil.googlecode.com/svn/trunk/player/ku6.swf}}
 player.ku6cdn.com/default/common/player/.*/player.swf
