@@ -608,7 +608,7 @@ poster.yeyou.com/auto/*
 .mscbsc.com/gbook/search.gif
 { +filter{adblock} }
 *
-#白名名单
+#白名单
 { -block }
 .bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
 .ad.ourgame.com/cgi-bin/insertflasha.js
