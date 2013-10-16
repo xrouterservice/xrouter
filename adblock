@@ -606,6 +606,7 @@ poster.yeyou.com/auto/*
 .img.maxpda.com/images/
 .mojim.com/htm99t/iad.js
 .mscbsc.com/gbook/search.gif
+*/pagead/*
 { +filter{adblock} }
 *
 #白名单
