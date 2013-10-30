@@ -7,7 +7,7 @@ wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master
 wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnforward.action -O /etc/privoxy/adblock.script.action 2>/dev/null
 wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnfilter.filter -O /etc/privoxy/adblock.script.filter 2>/dev/null
 #wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnfilter.config -O /etc/privoxy/config 2>/dev/null
-/etc/init.d/dnsmasq restart
+#/etc/init.d/dnsmasq restart
   }
  else
   {
