@@ -5,8 +5,8 @@ if ping ping.xrouter.us -c 1 | grep -c "64 bytes from" ; then
 wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/update -O /etc/rc.button/wps 2>/dev/null
 wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnfilter.action -O /etc/privoxy/black.action 2>/dev/null
 wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnforward.action -O /etc/privoxy/adblock.script.action 2>/dev/null
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnfilter.filter -O /etc/privoxy/cnfilter.filter 2>/dev/null
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnfilter.config -O /etc/privoxy/config 2>/dev/null
+wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnfilter.filter -O /etc/privoxy/adblock.script.filter 2>/dev/null
+#wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/foreign/foreign/cnfilter.config -O /etc/privoxy/config 2>/dev/null
 /etc/init.d/dnsmasq restart
   }
  else
