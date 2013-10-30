@@ -1,0 +1,110 @@
+#Rules from Unblock-Youku by zhuzhuor et al.,
+#Converted to Privoxy rules by KarlCheong
+#https://github.com/karlcheong
+#https://twitter.com/karlcheong
+
+#direct=+forward-override{forward .}
+#{+forward-override{forward h1.edu.bj.ie.sogou.com:80}}
+#{+forward-override{forward-socks5 localhost:9050 .}}
+#{+forward-override{forward h0.edu.bj.ie.sogou.com:80} +sogou-header{Reason}}
+
+#    Addresses included in proxy.uku.im
+#{+forward-override{forward localhost:8088}}    #Goagent
+#{+forward-override{forward localhost:1998}}    #Sogouproxy
+{+forward-override{forward digito.wlmacao.tk:8000}}
+#interface.bilibili.tv/player.*
+v.youku.com/player/.*
+api.youku.com/player/.*
+v2.tudou.com/.*
+www.tudou.com/a/.*
+www.tudou.com/v/.*
+#    script filter by privoxy, proxy not needed for qqmusic
+#s.plcloud.music.qq.com/fcgi-bin/p\.fcg.*
+hot.vrs.sohu.com/.*
+live.tv.sohu.com/live/player.*
+#    script filter by privoxy, proxy not needed for letv
+#hot.vrs.letv.com/.*
+#g3.letv.cn/.*
+#    script filter by privoxy, but not used due to loading speed
+data.video.qiyi.com/.*
+220.181.61.229/.*
+61.135.183.45/.*
+61.135.183.46/.*
+220.181.19.218/.*
+220.181.61.213/.*
+220.181.118.181/.*
+123.126.48.47/.*
+123.126.48.48/.*
+vv.video.qq.com/.*
+tt.video.qq.com/getinfo.*
+ice.video.qq.com/getinfo.*
+tjsa.video.qq.com/getinfo.*
+a10.video.qq.com/getinfo.*
+xyy.video.qq.com/getinfo.*
+vcp.video.qq.com/getinfo.*
+vsh.video.qq.com/getinfo.*
+vbj.video.qq.com/getinfo.*
+bobo.video.qq.com/getinfo.*
+flvs.video.qq.com/getinfo.*
+geo.js.kankan.xunlei.com/.*
+web-play.pptv.com/.*
+web-play.pplive.cn/.*
+dyn.ugc.pps.tv/.*
+inner.kandian.com/.*
+ipservice.163.com/.*
+zb.s.qq.com/.*
+ip.kankan.xunlei.com/.*
+vxml.56.com/json/.*
+music.sina.com.cn/yueku/intro/.*
+music.sina.com.cn/radio/port/webFeatureRadioLimitList\.php.*
+play.baidu.com/data/music/songlink.*
+v.iask.com/v_play.php.*
+v.iask.com/v_play_ipad\.cx\.php.*
+tv.weibo.com/player/*
+www.yinyuetai.com/insite/.*
+www.yinyuetai.com/main/get-video-info.*
+.dpool.sina.com.cn/iplookup.*
+/vrs_flash\.action.*
+/\?prot=2&type=1.*
+/\?prot=2&file=/.*
+#    script filter by privoxy, proxy not needed for letv
+#api.letv.com/streamblock.*
+api.letv.com/mms/out/video/play.*
+live.gslb.letv.com/gslb\?.*
+vdn.apps.cntv.cn/api/get.*
+3g.music.qq.com/.*
+mqqplayer.3g.qq.com/.*
+proxy.music.qq.com/.*
+mobi.kuwo.cn/.*
+#    script filter by privoxy, proxy not needed for kugou
+#mobilefeedback.kugou.com/.*
+#    script filter by privoxy, proxy not needed for kugou
+#ip2.kugou.com/check/isCn/.*
+#ip.kugou.com/check/isCn/.*
+tingapi.ting.baidu.com/v1/restserver/ting\?.*method=baidu\.ting\.song.*
+client.api.ttpod.com/global\?.*
+api.3g.youku.com/layout*.
+api.3g.youku.com/v3/play/address.*
+api.3g.youku.com/openapi-wireless/videos/.*/download.*
+api.3g.youku.com/videos/.*/download.*
+api.3g.youku.com/common/v3/play.*
+api.3g.tudou.com/.*
+play.api.3g.youku.com/v3/play/address.*
+play.api.3g.tudou.com/v.*
+#    script filter by privoxy, proxy not needed for sohuapp
+#api.tv.sohu.com/.*
+access.tv.sohu.com/.*
+iface2.iqiyi.com/php/xyz/iface/.*
+dynamic.app.m.letv.com/.*/dynamic\.php\?.*playid.*
+#    script filter by privoxy, proxy not needed for letv
+#api.letv.com/getipgeo
+listso.m.areainfo.ppstream.com/ip/q\.php.*
+m.letv.com/api/geturl\?.*
+iplocation.geo.qiyi.com/cityjson
+sns.video.qq.com/tunnel/fcgi-bin/tunnel.*
+openapi.youku.com/.*
+61.135.196.99/.*
+220.181.185.150/.*
+180.153.225.136/.*
+118.244.244.124/.*
+210.129.145.150/.*
