@@ -1,0 +1,47 @@
+#Rules from Unblock-Youku by zhuzhuor et al.,
+#Converted to Privoxy rules by KarlCheong
+#https://github.com/karlcheong
+#https://twitter.com/karlcheong
+
+FILTER: bdmusicsuck Replace mbox.isForeign = "1"; with mbox.isForeign = "";
+
+s|isForeign = "1";|isForeign = "";|ig
+
+FILTER: kgmusicappsuck Replace "flag":0 with "flag":1
+
+s|"flag":0|"flag":1|g
+
+FILTER: qqmusicsuck Replace MusicJsonCallback({ret:0}) with MusicJsonCallback({ret:1})
+
+s|ret:0|ret:1|g
+
+FILTER: mytvhdsuck Replace 0 with 1
+
+s|0|1|
+
+FILTER: iqiyisuck Replace location(t) with CNC
+
+s/OVERSEA\|../CNC\|BeiJing/i
+
+FILTER: tudousuck Replace tvcCode=5001 with tvcCode=-1
+
+s|,tvcCode: '5001'|,tvcCode: '\-1'|g
+s|,tvcCode: '1001'|,tvcCode: '\-1'|g
+
+FILTER: letvlivesuck Replace playStatus 1 with 0
+
+s|"playStatus":1|"playStatus":0|g
+
+FILTER: letvappsuck Replace userCountry=CN, allowplay=1, ip=1
+
+s|"userCountry":"..|"userCountry":"CN|
+s|"allowplay":"0|"allowplay":"1|
+s|"ip":"0|"ip":"1|
+
+FILTER: sohuappsuck Replace iplimit=0
+
+s|"iplimit":1|"iplimit":0|
+
+FILTER: duomiappsuck Replace "overseaip":1 with "overseaip":0
+
+s|"overseaip":1|"overseaip":0|g
