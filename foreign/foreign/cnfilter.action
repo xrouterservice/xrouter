@@ -1,0 +1,41 @@
+#Rules from Unblock-Youku by zhuzhuor et al.,
+#Converted to Privoxy rules by KarlCheong
+#https://github.com/karlcheong
+#https://twitter.com/karlcheong
+
+{ +filter{mytvhdsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+vdo.mobile.tvb.com/2\.0/mytvhd/cc\.php
+v5.pc.duomi.com/single\-ajaxsingle\-isban.*
+
+{ +filter{qqmusicsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+s.plcloud.music.qq.com/fcgi-bin/p\.fcg.*
+
+{ +filter{bdmusicsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+play.baidu.com/
+
+{ +filter{kgmusicappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+mobilefeedback.kugou.com/.*
+ip2.kugou.com/check/isCn/.*
+ip.kugou.com/check/isCn/.*
+
+#    loading too slow on my adsl, might not use ATM.
+#{ +filter{iqiyisuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+#data.video.qiyi.com/v\.(f4v|ts).*
+
+{ +filter{tudousuck} +force-text-mode +forward-override{forward .} }
+.tudou.com/listplay/.*
+.tudou.com/albumplay/.*
+.tudou.com/programs/view/.*
+
+{ +filter{letvlivesuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+api.letv.com/streamblock.*
+
+{ +filter{letvappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+api.letv.com/getipgeo
+hot.vrs.letv.com/.*
+
+{ +filter{sohuappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+api.tv.sohu.com/mobile_user/device/clientconf\.json\?.*
+
+{ +filter{duomiappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+serviceinfo.sdk.duomi.com/api/serviceinfo/getserverlist.*
