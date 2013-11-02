@@ -678,7 +678,7 @@ poster.yeyou.com/auto/*
 .linuxidc.com/linuxfile/linux.js
 .zerodm.net/js/ads/zxdmxz.js
 
-#{+redirect{https://haoutil.googlecode.com/svn/trunk/youku/loader.swf}}
+#{+redirect{https://haoutil.googlecode.com/svn/trunk/player/testmod/loader.swf}}
 #static.youku.com/.*/v/swf/.*.swf
 
 {+redirect{https://haoutil.googlecode.com/svn/trunk/player/ku6.swf}}
