@@ -62,11 +62,12 @@ feed.tunein.com
 opml.radiotime.com
 stream.radiotime.com
 .mysqueezebox.com
+.uesmartradio.com
 bcr.media.hinet.net
 .sonos.com
 .pandora.com
 .spotify.com
-.eu-west-1.compute.amazonaws.com
+ec2-54-247-*.eu-west-1.compute.amazonaws.com
 .xvideos.com
 #game
 .ffxiv.com
