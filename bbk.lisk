@@ -64,10 +64,12 @@ stream.radiotime.com
 .mysqueezebox.com
 .uesmartradio.com
 bcr.media.hinet.net
+ec2-54-247-93-63.eu-west-1.compute.amazonaws.com
+ec2-54-247-93-39.eu-west-1.compute.amazonaws.com
+ec2-54-247-105-56.eu-west-1.compute.amazonaws.com
 .sonos.com
 .pandora.com
 .spotify.com
-ec2-54-247-*.eu-west-1.compute.amazonaws.com
 .xvideos.com
 #game
 .ffxiv.com
