@@ -3800,6 +3800,9 @@ www.54new.com/da/*
 .400gb.com
 .pipipan.com
 
+{+filter{acfun}}
+.acfun.tv
+
 #{+redirect{https://haoutil.googlecode.com/svn/trunk/youku/loader.swf}}
 #static.youku.com/.*/v/swf/.*.swf
 
