@@ -3813,24 +3813,3 @@ player.ku6.com/.*/.*/v.swf
 {-block}
 400front.tv002.com
 
-{ -block +handle-as-image }
-static.youku.com/v1\.0\.0328/v/swf/player_yknp\.swf\?retry=1
-.valf.atm.youku.com/crossdomain\.xml
-.g.aa.sdo.com/\?.*
-pic.snyu.com/sdk6/.*/Main\.swf
-.aty.*\.sohu.com
-/adbanner/.*
-.gg.a.5d6d.
-.adimg.adtpl.jd.com/uploads/
-.drmcmm.baidu.com/media/
-/common/cf/.*.thumb
-.p4u.hinet.net/bien12/
-.hd.duba.net/vip.ijinshan.com/repository/ad-images/
-.home.on.cc/adv/web/corp/
-.gtimg.com/img/ad/
-.exp.qq.com/img/ad/
-.gg.tgbus.com
-.poster.weather.com.cn/p_files/base/
-.ads.yimg.com/ja/a/
-.chiphell.com/activity/.*/.*/
-/data/preview/.*
