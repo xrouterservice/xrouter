@@ -7,7 +7,7 @@ wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master
 wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action 2>/dev/null
 wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/home -O /etc/www.home 2>/dev/null
 #wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dns -O /etc/dns 2>/dev/null
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf 2>/dev/null
+wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/tel/hb/dnsmasq.conf -O /etc/dnsmasq.conf 2>/dev/null
 /etc/init.d/dnsmasq restart
   }
  else
