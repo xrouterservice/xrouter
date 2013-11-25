@@ -3792,11 +3792,15 @@ www.54new.com/da/*
 .acfun.tv
 
 #{+redirect{https://haoutil.googlecode.com/svn/trunk/youku/loader.swf}}
-#static.youku.com/.*/v/swf/.*.swf
+#static.youku.com/[^/]+/v/swf/(loader|player[^\.]*)\.swf$
 
 {+redirect{https://haoutil.googlecode.com/svn/trunk/player/ku6.swf}}
 player.ku6cdn.com/default/common/player/.*/player.swf
 player.ku6.com/.*/.*/v.swf
+
+{+redirect{https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi.swf}}
+www.iqiyi.com/player/[^/]+/player\.swf$
+{+redirect{s@http://player.video.qiyi.com/([^/]+)/.*autoplay@https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi_out.swf?vid=$1&autoplay@}}
 
 {-block}
 400front.tv002.com
