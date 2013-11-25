@@ -1320,11 +1320,6 @@ code.aizhuanlove.cn/code/*
 *.picadmedia.com/*
 cts.tradepub.com/*
 *.intellitxt.com/*
-
-
-
-
-
 *.dt07.net/*
 *.mgid.com/*.htm
 *.mgid.com/*.js
@@ -1437,7 +1432,6 @@ img1.gtimg.com/news/pics/hv1/83/202/1274/82893443.jpg
 zhidao.ikaka.com/images/game_*.gif
 dr.soso.com/*
 *soso*.*/UploadFiles/2008*.gif
-
 record.kuai.xunlei.com/*
 analytics-union.xunlei.com/*
 img.kuai.xunlei.com/img/v2/fen/*
@@ -3406,6 +3400,7 @@ www.weste.net/js/showpagead.js
 smjs.allyes.com/*
 aoodoo.weiphone.com/*
 *weiphone.com/baidu.html?id=*
+club.tgfcer.com/images/g.*
 *.qjwm.com/123.jpg
 www.qjwm.com/qjwmtop.js
 www.qjwm.com/j/bbscpv.js
