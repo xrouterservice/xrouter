@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-  var PROXY = "SOCKS5 www.home:8888";
+  var PROXY = "PROXY www.home:81";
   var DEFAULT = "DIRECT";
 
   //-- AUTO-GENERATED RULES, DO NOT MODIFY!
