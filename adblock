@@ -3561,9 +3561,7 @@ house.leju.com/js/cooperate/leju_bitauto_search.js
 dq.baidu.com/nocipher*
 pan.baidu.com/api/analytics*
 cdn.baidupcs.com/monitor.jpg*
-
-
-i.mmcdn.cn*/simba/img/*
+#i.mmcdn.cn*/simba/img/*
 tns.simba.taobao.com/*
 log.mmstat.com/*
 log.mm.vip.cnz.alimama.com/*
