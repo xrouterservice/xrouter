@@ -1,0 +1,63 @@
+config default
+	option protocol 'tcp'
+	option ports '443'
+	option enabled 'yes'
+	option remark 'beatsmusic'
+	option dsthost 'account.beatsmusic.com'
+
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'mysqueezebox'
+	option dsthost 'mysqueezebox.com'
+
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'uesmartradio'
+	option dsthost 'uesmartradio.com'
+
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'pandora'
+	option dsthost 'www.pandora.com'
+
+config default
+	option remark 'netflix'
+	option dsthost 'signup.netflix.com'
+	option ports '443'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'netflix'
+	option dsthost 'netflix.hs.llnwd.net'
+	option ports '443'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'netflix'
+	option dsthost 'cbp-us.nccp.netflix.com'
+	option ports '443'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option protocol 'tcp'
+	option remark 'logitech UE'
+	option dsthost 'ec2-54-247-93-39.eu-west-1.compute.amazonaws.com'
+	option enabled 'yes'
+
+config default
+	option protocol 'tcp'
+	option remark 'logitech UE'
+	option dsthost 'ec2-54-247-105-56.eu-west-1.compute.amazonaws.com'
+	option enabled 'yes'
+
+config default
+	option remark 'logitech UE'
+	option dsthost 'ec2-54-247-93-63.eu-west-1.compute.amazonaws.com'
+	option protocol 'tcp'
+	option enabled 'yes'
