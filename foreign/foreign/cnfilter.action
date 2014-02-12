@@ -3,23 +3,66 @@
 #https://github.com/karlcheong
 #https://twitter.com/karlcheong
 
-{ +filter{mytvhdsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
-vdo.mobile.tvb.com/2\.0/mytvhd/cc\.php
-v5.pc.duomi.com/single\-ajaxsingle\-isban.*
-
-{ +filter{qqmusicsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+{ +filter{qqmusicsuck} +force-text-mode +forward-override{forward .} }
 s.plcloud.music.qq.com/fcgi-bin/p\.fcg.*
 
-{ +filter{bdmusicsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+{ +filter{bdmusicsuck} +force-text-mode }
 play.baidu.com/
 
-{ +filter{kgmusicappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+{ +filter{kgmusicappsuck} +force-text-mode +forward-override{forward .} }
 mobilefeedback.kugou.com/.*
 ip2.kugou.com/check/isCn/.*
 ip.kugou.com/check/isCn/.*
 
+{ +filter{duomiappsuck} +force-text-mode +forward-override{forward .} }
+serviceinfo.sdk.duomi.com/api/serviceinfo/getserverlist.*
+
+{+filter{163musicappsuck} +force-text-mode +forward-override{forward .}}
+music.163.com/api/copyright/restrict/\?.*
+music.163.com/api/batch
+
+{ +filter{mytvappsuck} +force-text-mode +forward-override{forward .} }
+vdo.mobile.tvb.com/checkCountryAllow\.php
+
+{ +filter{letvappsuck} +force-text-mode +forward-override{forward .} }
+api.letv.com/getipgeo
+hot.vrs.letv.com/.*
+static.app.m.letv.com/android/mod/mob/ctl/.*/act/detail/id/.*
+
+{ +filter{sohuappsuck} +force-text-mode }
+api.tv.sohu.com/mobile_user/device/clientconf\.json\?.*
+api.tv.sohu.com/mobile/video/list\.json.*
+api.tv.sohu.com/set/info2/.*\.json.*
+api.tv.sohu.com/v4/mobile/video/list\.json.*
+api.tv.sohu.com/v4/album/info/.*\.json.*
+api.tv.sohu.com/v4/video/info/.*\.json.*
+
+{ +filter{qqvideoappsuck} +force-text-mode }
+bkmobile.video.qq.com/fcgi-bin/dout_.*\?.*
+mobile.video.qq.com/fcgi-bin/dout_.*\?.*
+sns.video.qq.com/fcgi-bin/rmd_mobile\?.*
+live.qq.com/json/ipad/cover/.*\.json.*
+
+{ +filter{iqiyiappsuck} +force-text-mode }
+iface.iqiyi.com/api/initLogin.*
+iface2.iqiyi.com/php/xyz/iface/\?.*
+iface2.iqiyi.com/php/xyz/entry/\?.*
+mixer.cupid.iqiyi.com/mixer\?.*
+
+{ +filter{youkuappsuck} +force-text-mode +forward-override{forward .} }
+api.3g.youku.com/layout/phone3_0/shows/.*
+api.3g.youku.com/layout/ios3_0/play/detail.*
+api.3g.tudou.com/v3_3/album/videos.*
+api.3g.tudou.com/todou/play/detail/desc.*
+
+{ +filter{youkuappsuck} +force-text-mode }
+play.api.3g.tudou.com/v.*
+
+{+redirect{s@^http://play.api.3g.youku.com/common/v3/hasadv/play@http://play.api.3g.youku.com/common/v3/play@}}
+play.api.3g.youku.com/common/v3/hasadv/play.*
+
 #    loading too slow on my adsl, might not use ATM.
-#{ +filter{iqiyisuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+#{ +filter{iqiyisuck} +force-text-mode +forward-override{forward .} }
 #data.video.qiyi.com/v\.(f4v|ts).*
 
 { +filter{tudousuck} +force-text-mode +forward-override{forward .} }
@@ -27,15 +70,9 @@ ip.kugou.com/check/isCn/.*
 .tudou.com/albumplay/.*
 .tudou.com/programs/view/.*
 
-{ +filter{letvlivesuck} +prevent-compression +force-text-mode +forward-override{forward .} }
+{ +filter{letvlivesuck} +force-text-mode +forward-override{forward .} }
 api.letv.com/streamblock.*
 
-{ +filter{letvappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
-api.letv.com/getipgeo
-hot.vrs.letv.com/.*
-
-{ +filter{sohuappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
-api.tv.sohu.com/mobile_user/device/clientconf\.json\?.*
-
-{ +filter{duomiappsuck} +prevent-compression +force-text-mode +forward-override{forward .} }
-serviceinfo.sdk.duomi.com/api/serviceinfo/getserverlist.*
+{ +filter{mytvhdsuck} +force-text-mode +forward-override{forward .} }
+vdo.mobile.tvb.com/2\.0/mytvhd/cc\.php
+v5.pc.duomi.com/single\-ajaxsingle\-isban.*
