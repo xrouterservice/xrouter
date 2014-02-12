@@ -4,44 +4,83 @@
 #https://twitter.com/karlcheong
 
 FILTER: bdmusicsuck Replace mbox.isForeign = "1"; with mbox.isForeign = "";
-
 s|isForeign = "1";|isForeign = "";|ig
 
 FILTER: kgmusicappsuck Replace "flag":0 with "flag":1
-
 s|"flag":0|"flag":1|g
 
 FILTER: qqmusicsuck Replace MusicJsonCallback({ret:0}) with MusicJsonCallback({ret:1})
-
 s|ret:0|ret:1|g
 
 FILTER: mytvhdsuck Replace 0 with 1
-
 s|0|1|
 
-FILTER: iqiyisuck Replace location(t) with CNC
+FILTER: mytvappsuck Replace country=HK, accept=true
+s|"country":"..|"country":"HK|
+s|"accept":false|"accept":true|
 
+FILTER: iqiyisuck Replace location(t) with CNC
 s/OVERSEA\|../CNC\|BeiJing/i
 
 FILTER: tudousuck Replace tvcCode=5001 with tvcCode=-1
-
 s|,tvcCode: '5001'|,tvcCode: '\-1'|g
 s|,tvcCode: '1001'|,tvcCode: '\-1'|g
 
 FILTER: letvlivesuck Replace playStatus 1 with 0
-
 s|"playStatus":1|"playStatus":0|g
 
-FILTER: letvappsuck Replace userCountry=CN, allowplay=1, ip=1
-
+FILTER: letvappsuck letv app kills ad and allow download
 s|"userCountry":"..|"userCountry":"CN|
 s|"allowplay":"0|"allowplay":"1|
 s|"ip":"0|"ip":"1|
+s|"download":"0"|"download":"1"|g
 
-FILTER: sohuappsuck Replace iplimit=0
+FILTER: sohuappsuck sohuvideo app kills ad and allow download
+s|"iplimit":1|"iplimit":0|ig
+s|"mobileLimit":1|"mobileLimit":0|g
+s|"isDownload":0|"isDownload":1|g
+s|"is_download":0|"is_download":1|g
+s|"ip_limit":1|"ip_limit":0|g
+s|"mobile_limit":1|"mobile_limit":0|g
+s|"fee":.|"fee":0|g
+s|"fee_month":.|"fee_month":0|g
 
-s|"iplimit":1|"iplimit":0|
+FILTER: qqvideoappsuck qqvideo app kills ad and allow download
+s|"c_download":.*0,(.*)"|"c_download": 1,$1"|Ug
+s|"download":.*0,(.*)"|"download": 1,$1"|Ug
+s|"apad":0|"apad":1|g
+s|"aphone":0|"aphone":1|g
+s|"client":0|"client":1|g
+s|"ipad":0|"ipad":1|g
+s|"iphone":0|"iphone":1|g
+s|"tv":0|"tv":1|g
+s|"web":0|"web":1|g
+s|"wpad":0|"wpad":1|g
+s|"wphone":0|"wphone":1|g
 
 FILTER: duomiappsuck Replace "overseaip":1 with "overseaip":0
-
 s|"overseaip":1|"overseaip":0|g
+
+FILTER: youkuappsuck Replace "limit":1 with "limit":0
+s|"limit":1|"limit":0|g
+s|"limit": 1|"limit": 0|g
+
+FILTER: 163musicappsuck Replace restrictedCopyright":[5002,5003,5001], to [],
+s|"restrictedCopyright":\[.*\],|"restrictedCopyright":[],|
+
+FILTER: iqiyiappsuck iqiyi app kills ad and allow download
+s|"show_ad":1|"show_ad":0|g
+s|"skip_ad":1|"skip_ad":0|g
+s|"vip7":0|"vip7":1|g
+s|"download_limit":\d|"download_limit":0|g
+s|_dl":"0|_dl":"1|ig
+s|\x5f\x64\x6c\x53(.)\x01\x30\x53|\x5f\x64\x6c\x53$1\x01\x31\x53|g
+s|"enableMiaozhenSDK":1|"enableMiaozhenSDK":0|g
+s|"enableAdMasterSDK":1|"enableAdMasterSDK":0|g
+s|"enableMiaozhenSDK\\":1|"enableMiaozhenSDK\\":0|g
+s|"enableAdMasterSDK\\":1|"enableAdMasterSDK\\":0|g
+s|"duration":[0-9][0-9]|"duration":00|g
+s|"duration":\d|"duration":0|g
+s|"type":\d,"slotExtras"|"type":0,"slotExtras"|g
+#s|"creativeType":"video_m3u8"|"creativeType":""|g
+#s|finalUrl":"http(.*)\.m3u8"|finalUrl":"http$1\.m3u8"|g
