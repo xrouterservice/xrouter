@@ -61,3 +61,9 @@ config default
 	option dsthost 'ec2-54-247-93-63.eu-west-1.compute.amazonaws.com'
 	option protocol 'tcp'
 	option enabled 'yes'
+	
+config default
+	option remark 'chromecast'
+	option dsthost 'tools.google.com'
+	option protocol 'tcp'
+	option enabled 'yes'
