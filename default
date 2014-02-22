@@ -67,3 +67,47 @@ config default
 	option dsthost 'tools.google.com'
 	option protocol 'tcp'
 	option enabled 'yes'
+
+config default
+	option remark 'nba2k14'
+	option dsthost 'nba2k14-nextgen-ws-vc.2ksports.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'nba2k14'
+	option dsthost 'nba2k14-nextgen-ws-sync.2ksports.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'nba2k14'
+	option dsthost 'nba2k14-nextgen-ws-misc.2ksports.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'nba2k14'
+	option dsthost 'nba2k14-nextgen-ws-mm.2ksports.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'nba2k14'
+	option dsthost 'nba2k14-nextgen-ws-disc.2ksports.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'nba2k14'
+	option dsthost 'nba2k14a.2ksports.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'nba2k14'
+	option dsthost 'nba-cdn.2ksports.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+
