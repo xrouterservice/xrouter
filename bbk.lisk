@@ -113,7 +113,7 @@ mfile.akamai.com
 .staticflickr.com
 .gtimg.com
 .free4u.com.ar
-.fastly.*
+#.fastly.*
 .flickr.com
 .officedepot.com
 forum.gamer.com.tw
