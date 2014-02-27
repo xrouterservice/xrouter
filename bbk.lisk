@@ -21,8 +21,9 @@ i2p2.de
 .twimg.*
 .bitbucket.org
 .googlevideo.com
-.smilevideo.jp/smile?i=*
-.nicovideo.jp/smile?m=*
+#.smilevideo.jp/smile?i=*
+#.nicovideo.jp/smile?m=*
+.nicovideo.jp/watch/*
 .blogspot.com
 code.google.com/p/goagent/
 .tumblr.com
@@ -113,7 +114,7 @@ mfile.akamai.com
 .staticflickr.com
 .gtimg.com
 .free4u.com.ar
-.fastly.*
+#.fastly.*
 .flickr.com
 .officedepot.com
 forum.gamer.com.tw
