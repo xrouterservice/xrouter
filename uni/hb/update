@@ -2,12 +2,13 @@
 
 if ping ping.xrouter.us -c 1 | grep -c "64 bytes from" ; then  
  {
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/hb/update -O /etc/rc.button/wps 2>/dev/null
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action 2>/dev/null
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action 2>/dev/null
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/home -O /etc/www.home 2>/dev/null
-#wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dns -O /etc/dns 2>/dev/null
-wget --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/hb/dnsmasq.conf -O /etc/dnsmasq.conf 2>/dev/null
+wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/hb/update -O /etc/rc.button/wps -o /dev/null >/dev/null
+wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action -o /dev/null >/dev/null
+#wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action -o /dev/null >/dev/null
+wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/home -O /etc/www.home -o /dev/null >/dev/null
+wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac -o /dev/null >/dev/null
+wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/hb/dnsmasq.conf -O /etc/dnsmasq.conf -o /dev/null >/dev/null
+wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule -o /dev/null >/dev/null
 /etc/init.d/dnsmasq restart
   }
  else
