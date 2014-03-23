@@ -9,7 +9,7 @@ wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/mas
 wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac -o /dev/null >/dev/null
 wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf -o /dev/null >/dev/null
 wget -b --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule -o /dev/null >/dev/null
-#/etc/init.d/dnsmasq restart
+/etc/init.d/dnsmasq restart
   }
  else
   {
