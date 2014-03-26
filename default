@@ -23,12 +23,12 @@ config default
 	option remark 'pandora'
 	option dsthost 'www.pandora.com'
 
-#config default
-#	option remark 'netflix'
-#	option dsthost 'signup.netflix.com'
-#	option ports '443'
-#	option protocol 'tcp'
-#	option enabled 'yes'
+config default
+	option remark 'netflix'
+	option dsthost 'signup.netflix.com'
+	option ports '443'
+	option protocol 'tcp'
+	option enabled 'yes'
 
 config default
 	option remark 'netflix'
@@ -37,12 +37,12 @@ config default
 	option protocol 'tcp'
 	option enabled 'yes'
 
-#config default
-#	option remark 'netflix'
-#	option dsthost 'cbp-us.nccp.netflix.com'
-#	option ports '443'
-#	option protocol 'tcp'
-#	option enabled 'yes'
+config default
+	option remark 'netflix'
+	option dsthost 'cbp-us.nccp.netflix.com'
+	option ports '443'
+	option protocol 'tcp'
+	option enabled 'yes'
 
 config default
 	option protocol 'tcp'
