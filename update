@@ -14,9 +14,8 @@ wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
 sleep 5
 /etc/init.d/dnsmasq restart
-  }
- else
-  {
-    echo "Give up"
-    } 
-   fi
+}
+else
+echo "Give up"
+fi
+exit 0
