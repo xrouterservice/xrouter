@@ -8,6 +8,9 @@ wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/home -O /etc/www.home
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/d1.conf -O /etc/d1.conf
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/d2.conf -O /etc/d2.conf
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/d3.conf -O /etc/d3.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
 
 /etc/init.d/dnsmasq restart
