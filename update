@@ -13,7 +13,7 @@ wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/d3.conf -O /etc/d3.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/d4.conf -O /etc/d4.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
-sleep 5
+sleep 2
 /etc/init.d/dnsmasq restart
 }
 else
