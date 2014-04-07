@@ -2,16 +2,17 @@
 
 if ping ping.xrouter.us -c 1 | grep -c "64 bytes from" ; then  
 {
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/cmc/hd/update -O /etc/rc.button/wps
+mkdir -p /etc/dnsmasq.d
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/tel/hd/update -O /etc/rc.button/wps
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
 #wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/home -O /etc/www.home
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/cmc/hd/d1.conf -O /etc/d1.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/cmc/hd/d2.conf -O /etc/d2.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/cmc/hd/d3.conf -O /etc/d3.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/cmc/hd/d4.conf -O /etc/d4.conf
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/tel/hd/d1.conf -O /etc/dnsmasq.d/d1.conf
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/tel/hd/d2.conf -O /etc/dnsmasq.d/d2.conf
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/tel/hd/d3.conf -O /etc/dnsmasq.d/d3.conf
+wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/tel/hd/d4.conf -O /etc/dnsmasq.d/d4.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
 sleep 5
 /etc/init.d/dnsmasq restart
