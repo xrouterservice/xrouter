@@ -29,7 +29,13 @@ config default
 	option ports '443'
 	option protocol 'tcp'
 	option enabled 'yes'
-
+	
+config default
+	option remark 'netflix'
+	option dsthost 'www.netflix.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+	
 config default
 	option remark 'netflix'
 	option dsthost 'netflix.hs.llnwd.net'
