@@ -63,6 +63,79 @@ config default
 	option enabled 'yes'
 
 config default
+	option remark 'netflix'
+	option dsthost 'api-global.netflix.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'netflix'
+	option dsthost 'appboot.netflix.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'netflix'
+	option dsthost 'nrdp.nccp.netflix.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'netflix'
+	option dsthost 'ichnaea.netflix.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'netflix'
+	option dsthost 'nmtracking.netflix.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+
+config default
+	option remark 'hulu'
+	option dsthost 'nmtracking.netflix.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'hulu'
+	option dsthost 'assets.hulu.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'hulu'
+	option dsthost 'ps4.app.hulu.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'hulu'
+	option dsthost 'assets.huluim.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'hulu'
+	option dsthost 'play.hulu.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'hulu'
+	option dsthost 'firehose.hulu.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'hulu'
+	option dsthost 't.hulu.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
 	option protocol 'tcp'
 	option remark 'logitech UE'
 	option dsthost 'ec2-54-247-93-39.eu-west-1.compute.amazonaws.com'
