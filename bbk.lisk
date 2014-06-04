@@ -1,11 +1,13 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
 play.google.com/store/apps
-.android.clients.google.com
+android.clients.google.com
+android.l.google.com
 .ggpht.com
 .youtube.*
 youtu.be
 .youtubeeducation.com
 .youtube-nocookie.com
+.googleanalytic.com
 .ytimg.*
 .appspot.com
 igfw.*
