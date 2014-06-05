@@ -1,0 +1,11 @@
+#EXTM3U name="My IPTV" type=m3u8
+#EXTINF:0,西游记之大闹天宫
+http://v.youku.com/player/getM3U8/vid/XNjkwNDc4MzIw/type/hd2/video.m3u8
+#EXTINF:0,饥饿游戏2:星火燎原
+http://v.youku.com/player/getM3U8/vid/XNjkwODk3Nzg4/type/hd2/video.m3u8
+#EXTINF:0,私人订制
+http://v.youku.com/player/getM3U8/vid/XNjY4MTIxMTcy/type/hd2/video.m3u8
+#EXTINF:0,克隆丈夫
+http://v.youku.com/player/getM3U8/vid/XNjQxMzI4MTAw/type/hd2/video.m3u8
+#EXTINF:0,潜伏
+http://v.youku.com/player/getM3U8/vid/XNjY0MzIzNTA0/type/hd2/video.m3u8
