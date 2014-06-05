@@ -23,10 +23,6 @@ wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterserv
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/videos.m3u -O /usr/share/xupnpd/playlists/
 #wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/The%20Neighbors%20Season%202.m3u -O /usr/share/xupnpd/playlists/
 #wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/VICE%20visits%20North%20Korea.m3u -O /usr/share/xupnpd/playlists/
-
-
-
-
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/China's%20tongue%202.m3u -O /usr/share/xupnpd/playlists/
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/24%20hours.m3u -O /usr/share/xupnpd/playlists/
 sleep 5
