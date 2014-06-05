@@ -1,0 +1,27 @@
+#EXTM3U name="VICE探访朝鲜" type=m3u8
+#EXTINF:0,北朝鲜(一)
+http://v.youku.com/player/getM3U8/vid/XNTM0MDg4MjYw/type/mp4/video.m3u8
+#EXTINF:0,北朝鲜(二)
+http://v.youku.com/player/getM3U8/vid/XNTM0MTEzODc2/type/hd2/video.m3u8
+#EXTINF:0,北朝鲜(三)
+http://v.youku.com/player/getM3U8/vid/XNTM0MTIyMzI4/type/hd2/video.m3u8
+#EXTINF:0,朝鲜劳工营(一)
+http://v.youku.com/player/getM3U8/vid/XNTY0NDMzMTMy/type/hd2/video.m3u8
+#EXTINF:0,朝鲜劳工营(二)
+http://v.youku.com/player/getM3U8/vid/XNTY0NDEyMjQ0/type/hd2/video.m3u8
+#EXTINF:0,朝鲜劳工营(三)
+http://v.youku.com/player/getM3U8/vid/XNTY0NDUyNTMy/type/hd2/video.m3u8
+#EXTINF:0,朝鲜劳工营(四)
+http://v.youku.com/player/getM3U8/vid/XNTY0NDk1NjE2/type/hd2/video.m3u8
+#EXTINF:0,朝鲜劳工营(五)
+http://v.youku.com/player/getM3U8/vid/XNTY0NTExNTQ0/type/hd2/video.m3u8
+#EXTINF:0,朝鲜劳工营(六)
+http://v.youku.com/player/getM3U8/vid/XNTY0NTQzODg4/type/hd2/video.m3u8
+#EXTINF:0,朝鲜劳工营(七)
+http://v.youku.com/player/getM3U8/vid/XNTY0NTU0NzM2/type/hd2/video.m3u8
+#EXTINF:0,平壤有个好莱坞(一)
+http://v.youku.com/player/getM3U8/vid/XNTc4NDAwMTQ0/type/hd2/video.m3u8
+#EXTINF:0,平壤有个好莱坞(二)
+http://v.youku.com/player/getM3U8/vid/XNTc4Mzk0OTcy/type/hd2/video.m3u8
+#EXTINF:0,平壤有个好莱坞(三)
+http://v.youku.com/player/getM3U8/vid/XNTc4Mzk1NTcy/type/hd2/video.m3u8
