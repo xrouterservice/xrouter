@@ -3,17 +3,29 @@
 if ping ping.xrouter.us -c 1 | grep -c "64 bytes from" ; then  
 {
 mkdir -p /etc/dnsmasq.d
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/update -O /etc/rc.button/wps
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
-#wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/home -O /etc/www.home
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.d/d1.conf -O /etc/dnsmasq.d/d1.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.d/d2.conf -O /etc/dnsmasq.d/d2.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.d/d3.conf -O /etc/dnsmasq.d/d3.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.d/d4.conf -O /etc/dnsmasq.d/d4.conf
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/update -O /etc/rc.button/wps
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
+#wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/home -O /etc/www.home
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/d1.conf -O /etc/dnsmasq.d/d1.conf
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/d2.conf -O /etc/dnsmasq.d/d2.conf
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/d3.conf -O /etc/dnsmasq.d/d3.conf
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/d4.conf -O /etc/dnsmasq.d/d4.conf
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
+#playlists
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/China's%20tongue.m3u -O /usr/share/xupnpd/playlists/
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/Man%20v.s%20Wild%202014.m3u -O /usr/share/xupnpd/playlists/
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/The%20Neighbors%20Season%202.m3u -O /usr/share/xupnpd/playlists/
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/VICE%20visits%20North%20Korea.m3u -O /usr/share/xupnpd/playlists/
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/check.m3u -O /usr/share/xupnpd/playlists/
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/videos.m3u -O /usr/share/xupnpd/playlists/
+#wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/The%20Neighbors%20Season%202.m3u -O /usr/share/xupnpd/playlists/
+#wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/VICE%20visits%20North%20Korea.m3u -O /usr/share/xupnpd/playlists/
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/China's%20tongue%202.m3u -O /usr/share/xupnpd/playlists/
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/playlists/24%20hours.m3u -O /usr/share/xupnpd/playlists/
+#wget -crbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists -P /usr/share/xupnpd/playlists
 sleep 5
 /etc/init.d/dnsmasq restart
 }

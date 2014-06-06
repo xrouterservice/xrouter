@@ -1,0 +1,15 @@
+#EXTM3U name="舌尖上的中国 第二季" type=m3u8
+#EXTINF:0,脚步
+http://v.youku.com/player/getM3U8/vid/XNzAwNjY1NjE2/type/hd2/video.m3u8
+#EXTINF:0,心传
+http://v.youku.com/player/getM3U8/vid/XNzAzNzY1MDk2/type/hd2/video.m3u8
+#EXTINF:0,时节
+http://v.youku.com/player/getM3U8/vid/XNzA2NzYwODE2/type/hd2/video.m3u8
+#EXTINF:0,家常
+http://v.youku.com/player/getM3U8/vid/XNzA5ODMxMzY0/type/hd2/video.m3u8
+#EXTINF:0,相逢
+http://v.youku.com/player/getM3U8/vid/XNzEyOTA5Nzk2/type/hd2/video.m3u8
+#EXTINF:0,密境
+http://v.youku.com/player/getM3U8/vid/XNzE2MTExMTIw/type/hd2/video.m3u8
+#EXTINF:0,三餐
+http://v.youku.com/player/getM3U8/vid/XNzE5NDc2NDEy/type/hd2/video.m3u8
