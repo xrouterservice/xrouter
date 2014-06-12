@@ -1,4 +1,6 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+.googleapis.com
+.gstatic.com
 play.google.com/store/apps
 android.clients.google.com
 android.l.google.com
