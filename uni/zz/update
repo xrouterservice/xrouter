@@ -7,7 +7,7 @@ wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
 #wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/home -O /etc/www.home
-wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac
+#wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/zz/d1.conf -O /etc/dnsmasq.d/d1.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/zz/d2.conf -O /etc/dnsmasq.d/d2.conf
