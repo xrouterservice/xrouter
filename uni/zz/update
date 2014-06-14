@@ -14,6 +14,8 @@ wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/zz/d3.conf -O /etc/dnsmasq.d/d3.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/uni/zz/d4.conf -O /etc/dnsmasq.d/d4.conf
 wget -bqt 0 --no-check-certificate https://raw.github.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
+#playlists
+wget -crbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists/ -P /usr/share/xupnpd/playlists
 sleep 5
 /etc/init.d/dnsmasq restart
 }
