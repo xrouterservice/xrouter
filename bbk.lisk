@@ -1,4 +1,5 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+cdn.sstatic.net
 .googleapis.com
 .gstatic.com
 www.google-analytics.com
@@ -103,9 +104,10 @@ mfile.akamai.com
 .nintendo.net
 .live.nicovideo.jp
 #gundam
-.auth.np.ac.playstation.net
-.ww.np.matching.playstation.net 
+#.auth.np.ac.playstation.net
+#.ww.np.matching.playstation.net 
 #misc
+.zrblog.net
 .uploaded.net
 .xvideos.com
 .feed.overseakids.com
