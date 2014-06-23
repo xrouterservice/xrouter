@@ -1,5 +1,11 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+.blogspot.com
+.blogger.com
 cdn.sstatic.net
+.googleadservices.com
+.googleusercontent.com
+.googlesyndication.com
+.googlelabs.com
 .googleapis.com
 .gstatic.com
 www.google-analytics.com
