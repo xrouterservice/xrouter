@@ -18,6 +18,7 @@ wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterserv
 #playlists
 wget -mrbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists/ -P /usr/share/xupnpd/playlists
 sleep 5
+chmod 755 /etc/rc.button/wps
 /etc/init.d/dnsmasq restart
 }
 else
