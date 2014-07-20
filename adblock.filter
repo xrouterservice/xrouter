@@ -37,7 +37,7 @@ FILTER: load-easylist-remove-js
 s@(?=<head>)@<script type="text/javascript" src="http://config.privoxy.org/user-manual/easylist-remove.js"></script>@
 
 FILTER: load-chinalist-remove-js
-s@(?=<head>)@<script type="text/javascript" src="http://config.privoxy.org/user-manual/chinalist-remove.js"></script>@
+s@(?=<head>)@<script type="text/javascript" src="http://www.xrouter.org/playlists/chinalist-remove.js"></script>@
 
 FILTER: load-jquery-js
 s@(?=<head>)@<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>\n\
