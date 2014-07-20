@@ -1693,8 +1693,8 @@ bbs.tgbus.com
 {-block}
 400front.tv002.com
 
-{+filter{load-chinalist-remove-js}\
-}
-/
-{ +filter{load-jquery-js}}
-/
+#{+filter{load-chinalist-remove-js}\
+#}
+#/
+#{ +filter{load-jquery-js}}
+#/
