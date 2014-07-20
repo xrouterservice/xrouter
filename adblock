@@ -212,30 +212,6 @@ static.115img.com/*
 .9vcpm.cn/*
 .cpp9v.cn/*
 
-#取自GF.RAR
-{+block{No reason specified.} \
- +change-x-forwarded-for{block} \
- +client-header-tagger{image-requests} \
- +client-header-tagger{css-requests} \
- +crunch-if-none-match \
- +crunch-incoming-cookies \
- +crunch-outgoing-cookies \
- +filter{js-annoyances} \
- +filter{js-events} \
- +filter{html-annoyances} \
- +filter{content-cookies} \
- +filter{refresh-tags} \
- +filter{webbugs} \
- +filter{jumping-windows} \
- +filter{frameset-borders} \
- +filter{shockwave-flash} \
- +handle-as-empty-document \
- +hide-from-header{block} \
- +hide-if-modified-since{-60} \
- +hide-referrer{conditional-block} \
- +overwrite-last-modified{randomize} \
- +set-image-blocker{blank} \
-}
 {+redirect{s@^http://([^/]*)(/$|$)@https://$1/@} \
 }
 .google.com/$
@@ -747,7 +723,7 @@ dw.cbsi.com.cn
 dwtracking.sdo.com
 dy2018.com/g/
 dyunion.net
-e\.phpwind.com
+#e\.phpwind.com
 e0575.cn/js/float\.js
 eap.enorth.com.cn
 eastmoney.com/count
