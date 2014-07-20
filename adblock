@@ -1664,12 +1664,15 @@ sports.sina.com.cn
 .07073.com
 .17173.com
 
-#{+redirect{https://haoutil.googlecode.com/svn/trunk/youku/loader.swf}}
-#static.youku.com/[^/]+/v/swf/(loader|player[^\.]*)\.swf$
+{+forward-override{forward yk.pp.navi.youku.com:80}}
+.youku.com/crossdomain.xml
 
-#{+redirect{https://haoutil.googlecode.com/svn/trunk/player/ku6.swf}}
-#player.ku6cdn.com/default/common/player/.*/player.swf
-#player.ku6.com/.*/.*/v.swf
+{ \
++filter{youku} \
+}
+.youku.com
+.letv.com
+.iqiyi.com
 
 #{+redirect{https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi.swf}}
 #www.iqiyi.com/player/[^/]+/player\.swf$
