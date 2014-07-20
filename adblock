@@ -1674,9 +1674,21 @@ sports.sina.com.cn
 .letv.com
 .iqiyi.com
 
-#{+redirect{https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi.swf}}
-#www.iqiyi.com/player/[^/]+/player\.swf$
-#{+redirect{s@http://player.video.qiyi.com/([^/]+)/.*autoplay@https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi_out.swf?vid=$1&autoplay@}}
+{+filter{userscript} +filter{Discuz}}
+.verycd.com
+.csdn.net
+yun.baidu.com
+pan.baidu.com
+www.baidu.com
+.yunfile.com
+.kuaipan.cn
+.400gb.com
+.fileim.com
+.lvse.com
+.dbank.com
+.songtaste.com
+.rayfile.com
+bbs.tgbus.com
 
 {-block}
 400front.tv002.com
