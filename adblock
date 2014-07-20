@@ -1680,3 +1680,9 @@ sports.sina.com.cn
 
 {-block}
 400front.tv002.com
+
+{+filter{load-chinalist-remove-js}\
+}
+/
+{ +filter{load-jquery-js}}
+/
