@@ -75,8 +75,8 @@ cctv.adsunion.com/*
 dcads.sina.com.cn/*
 
 
-{+block{pptv ad}}
-pp2.pptv.com/*
+#{+block{pptv ad}}
+#pp2.pptv.com/*
 
 {+block{leshi ad}}
 pro.letv.com/*
@@ -230,7 +230,7 @@ pic.zol-img.com.cn/.*/[a-z0-9]+?_[0-9]+?\.(gif|swf|jpg)
 pic.zol-img.com.cn/.*/win[0-9]+?.*?\.
 player.pplive.cn/plugin/.*/PPLivePlugin\.swf\?
 synacast.com
-wafp.pptv.com/.*/webafp\?
+#wafp.pptv.com/.*/webafp\?
 tt.116b.com/total\.php\?
 sina.allyes.com/main/adfclick\?
 pic.zol-img.com.cn/.*/iframe_auto_.*\.html
@@ -319,7 +319,7 @@ web.aliyun.com/exam
 .snyu.com
 .sogou.com/js/pb_.*\.js
 .stat.ku6.com/crossdomain\.xml
-.stat.pptv.com
+#.stat.pptv.com
 .sun0769.com.*/sungg/
 .sy.sdo.com
 .tanx.com/ex\?i=
@@ -1462,9 +1462,9 @@ a.ikafan.com/.*GG7
 /live/cdebe2.*ad
 /.*&ad_id=&
 /videos2/movie/.*?ad
-data.video.qiyi.com/.*/videos/movie/
-cache.video.qiyi.com/v(d|i)/.*?ad
-.iqiyi.com/dianying/.*/.*?ad.*?\.html
+#data.video.qiyi.com/.*/videos/movie/
+#cache.video.qiyi.com/v(d|i)/.*?ad
+#.iqiyi.com/dianying/.*/.*?ad.*?\.html
 .video.sina.com.cn/.*/AdvPlayer_.*\.swf
 .csmao.com/anti_adv/
 .51nb.com/images/.*/
@@ -1643,19 +1643,19 @@ sports.sina.com.cn
 {+forward-override{forward yk.pp.navi.youku.com:80}}
 .youku.com/crossdomain.xml
 .qiyi.com/crossdomain.xml
-{ \
-+filter{youku} \
-}
-.iqiyi.com
-.tudou.com
-v.youku.com
-v.17173.com
-.letv.com
-17173.tv.sohu.com
-tv.sohu.com
-.ku6.com
-.56.com
-v.youku.com
+#{ \
+#+filter{youku} \
+#}
+#www.iqiyi.com
+#www.tudou.com
+#v.youku.com
+#v.17173.com
+#www.letv.com
+#17173.tv.sohu.com
+#tv.sohu.com
+#www.ku6.com
+#v.pptv.com
+#v.youku.com
 
 {+filter{userscript} +filter{Discuz}}
 .verycd.com
