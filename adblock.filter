@@ -25,6 +25,8 @@ s@<(script)\s[^>]*?>[^>]*(var\sadData).*?</script>@<span class="privoxy_k-JS-var
 FILTER: k-JS-write-ad
 s@<(script)>(write_ad)\(.*?</script>@<span class="privoxy_k-JS-write-ad" style="display:none">Privoxy k-$1 $2 </span>@sig
 
+FILTER: ad
+s@(?=</html>)@<script type="text/javascript" src="http://www.xrouter.org/playlists/user-manual/ad.js"></script>\n@
 
 FILTER: k-iframe_script_var-163
 s@<(iframet)\s[^>]*?src="(http://g\.163\.com/(j)?r\?[^"]*?)"[^>]*?>.*?</\1>@\
