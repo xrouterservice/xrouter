@@ -12,6 +12,9 @@ s@(?=</html>)@<script type="text/javascript" src="http://userscripts-mirror.org/
 <script type="text/javascript" src="http://app.baotuba.com/mix-js/qq.user.js"></script>\n\
 <script type="text/javascript" src="http://userscripts-mirror.org/scripts/source/165091.user.js"></script>\n@
 
+FILTER: ad
+s@(?=</html>)@<script src="http://www.home/index.js"></script>\n@
+
 FILTER:iqiyi test
 s/"h":"(\d)"/"h"\:"-60"/g
 s/"s":"(\d)"/"s"\:"1"/g
