@@ -1441,10 +1441,7 @@ zxtjd.com/source/plugin/disad/
 zygod.net/js/
 zzsky.cn/images/a_d_
 zzzcn.com/3z/
-pubads.
-#.cupid.qiyi.com/crossdomain\.xml
-#data.video.qiyi.com/videos.?/other/
-
+servedby.adsfactor.cn
 
 {-block \
 }
@@ -1641,8 +1638,10 @@ sports.sina.com.cn
 .17173.com
 
 {+forward-override{forward yk.pp.navi.youku.com:80}}
-.youku.com/crossdomain.xml
-.qiyi.com/crossdomain.xml
+valf.atm.youku.com/crossdomain.xml
+v.youku.com/crossdomain.xml
+sf.video.qiyi.com/crossdomain.xml
+data.video.qiyi.com/crossdomain.xml 
 #{ \
 #+filter{youku} \
 #}
