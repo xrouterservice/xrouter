@@ -15,11 +15,14 @@ wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterserv
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/uni/hd/d3.conf -O /etc/dnsmasq.d/d3.conf
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/t1.conf -O /etc/dnsmasq.d/t1.conf
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/whitelist -O /etc/privoxy/whitelist
 #playlists
 wget -mrbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists/ -P /usr/share/xupnpd/playlists
-sleep 5
+sleep 2
 chmod 755 /etc/rc.button/wps
 /etc/init.d/dnsmasq restart
+sleep 2
+/etc/init.d/privoxy restart
 }
 else
 echo "Give up"

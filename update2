@@ -18,10 +18,10 @@ wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterserv
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/whitelist -O /etc/privoxy/whitelist
 #playlists
 wget -mrbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists/ -P /usr/share/xupnpd/playlists
-sleep 5
+sleep 2
 chmod 755 /etc/rc.button/wps
 /etc/init.d/dnsmasq restart
-sleep 10
+sleep 2
 /etc/init.d/privoxy restart
 }
 else
