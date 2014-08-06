@@ -21,6 +21,8 @@ wget -mrbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists/ -P /usr/share/xu
 sleep 5
 chmod 755 /etc/rc.button/wps
 /etc/init.d/dnsmasq restart
+sleep 10
+/etc/init.d/privoxy restart
 }
 else
 echo "Give up"
