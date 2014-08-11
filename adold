@@ -1642,34 +1642,34 @@ valf.atm.youku.com/crossdomain.xml
 v.youku.com/crossdomain.xml
 sf.video.qiyi.com/crossdomain.xml
 data.video.qiyi.com/crossdomain.xml 
-#{ \
-#+filter{youku} \
-#}
-#www.iqiyi.com
-#www.tudou.com
-#v.youku.com
-#v.17173.com
-#www.letv.com
-#17173.tv.sohu.com
-#tv.sohu.com
-#www.ku6.com
-#v.pptv.com
-#v.youku.com
+{ \
++filter{youku} \
+}
+www.iqiyi.com
+www.tudou.com
+v.youku.com
+v.17173.com
+www.letv.com
+17173.tv.sohu.com
+tv.sohu.com
+www.ku6.com
+v.pptv.com#
+v.youku.com
 
-#{+filter{userscript} +filter{Discuz}}
-#.verycd.com
-#.csdn.net
-#yun.baidu.com
-#pan.baidu.com/s/*
-#.yunfile.com
-#.kuaipan.cn
-#.400gb.com
-#.fileim.com
-#.lvse.com
-#.dbank.com
-#.songtaste.com
-#.rayfile.com
-#bbs.tgbus.com
+{+filter{userscript} +filter{Discuz}}
+.verycd.com
+.csdn.net
+yun.baidu.com
+pan.baidu.com/s/*
+.yunfile.com
+.kuaipan.cn
+.400gb.com
+.fileim.com
+.lvse.com
+.dbank.com
+.songtaste.com
+.rayfile.com
+bbs.tgbus.com
 
 {-block}
 400front.tv002.com
