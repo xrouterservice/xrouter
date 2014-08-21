@@ -201,4 +201,14 @@ config default
 	option protocol 'tcp'
 	option enabled 'yes'
 
+config default
+	option remark 'mhf'
+	option dsthost 'JP0102-PCSG00350-00.auth.np.ac.playstation.net'
+	option protocol 'tcp'
+	option enabled 'yes'
+config default
+	option remark 'mhf'
+	option dsthost 'sign-mhf-psvita.capcom-networks.jp'
+	option protocol 'tcp'
+	option enabled 'yes'
 
