@@ -30,6 +30,12 @@ config default
 	option dsthost '208.85.41.0/21'
 
 config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'squeezenetwork'
+	option dsthost 'baby.squeezenetwork.com'
+
+config default
 	option remark 'netflix'
 	option dsthost 'signup.netflix.com'
 	option ports '443'
