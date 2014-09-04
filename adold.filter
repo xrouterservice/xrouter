@@ -1,6 +1,6 @@
 FILTER: youku
-s@(?=</html>)@<script type="text/javascript" src="http://www.xrouter.org/playlists/user-manual/background.js">\n// 视频去广告\n</script>\n\
-<script type="text/javascript" src="http://www.xrouter.org/playlists/user-manual/script.js"></script>\n@
+s@(?=</html>)@<script type="text/javascript" src="http://tv.xrouter.org/playlists/user-manual/background.js">\n// 视频去广告\n</script>\n\
+<script type="text/javascript" src="http://tv.xrouter.org/playlists/user-manual/script.js"></script>\n@
 
 FILTER: Discuz
 s@(?=</html>)@<script type="text/javascript" src="https://greasyfork.org/scripts/2430-discuz-download/code/Discuz-download.user.js"></script>\n@
