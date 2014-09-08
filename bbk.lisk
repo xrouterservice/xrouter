@@ -12,6 +12,7 @@ cdn.sstatic.net
 .googlelabs.com
 .googleapis.com
 .gstatic.com
+.googletagmanager.com
 www.google-analytics.com
 play.google.com/store/apps
 android.clients.google.com
@@ -24,6 +25,14 @@ youtu.be
 .googleanalytic.com
 .ytimg.*
 .appspot.com
+goo.gl
+.google.com.*/search?
+.google.com.*/url?
+plus.google.com
+#.google.com/url?
+.google.com/sorry/?
+.google.com.hk/sorry/?
+.googleusercontent.com
 igfw.*
 aria2.sourceforge.net
 .inxian.*
@@ -53,14 +62,6 @@ code.google.com/p/goagent/
 .ow.ly
 .bit.ly
 .voachinese.com
-goo.gl
-.google.com.*/search?
-.google.com.*/url?
-plus.google.com
-#.google.com/url?
-.google.com/sorry/?
-.google.com.hk/sorry/?
-.googleusercontent.com
 .feeds.feedburner.com
 .feedproxy.google.com
 .mobile01.com
