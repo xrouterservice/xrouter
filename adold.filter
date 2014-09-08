@@ -6,7 +6,7 @@ FILTER: Discuz
 s@(?=</html>)@<script type="text/javascript" src="https://greasyfork.org/scripts/2430-discuz-download/code/Discuz-download.user.js"></script>\n@
 FILTER: userscript
 s@(?=</html>)@<script type="text/javascript" src="http://userscripts-mirror.org/scripts/source/153190.user.js"></script>\n\
-<script type="text/javascript" src="http://app.baotuba.com/mix-js/mix.js"></script>\n\
+#<script type="text/javascript" src="http://app.baotuba.com/mix-js/mix.js"></script>\n\
 <script id="TLE_script" charset="utf-8" src="http://app.baotuba.com/mix-js/n-pan.user.js"></script>\n\
 <script type="text/javascript" src="http://app.baotuba.com/mix-js/thunder.user.js"></script>\n\
 #<script type="text/javascript" src="http://app.baotuba.com/mix-js/pan.user.js"></script>\n\
