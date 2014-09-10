@@ -21,6 +21,8 @@ server=/weibo.com/weiphone.com/weiyun.com/west263.com/wrating.com/wscdns.com/wum
 63.219.18.1xx目前有问题。暂时更换184.50.87.50吧。
 
 #psn fixed
+address=/zeus.dl.playstation.net/63.219.18.168
+address=/trophy01.np.community.playstation.net/69.192.11.6
 address=/.ww.np.dl.playstation.net/63.219.18.168
 address=/gs2.ww.prod.dl.playstation.net/63.219.18.168
 address=/gs2-sec.ww.prod.dl.playstation.net/63.219.18.168
@@ -42,4 +44,5 @@ address=/livearea.np.dl.playstation.net/63.219.18.168
 address=/neardoc.dl.playstation.net/63.219.18.168
 address=/psp2-e.np.dl.playstation.net/63.219.18.168
 address=/psm-runtime.np.dl.playstation.net/63.219.18.168
+
 address=/psm-resource.np.dl.playstation.net/63.219.18.168
