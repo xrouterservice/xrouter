@@ -20,11 +20,13 @@ server=/weibo.com/weiphone.com/weiyun.com/west263.com/wrating.com/wscdns.com/wum
 其他地区可尝试
 63.219.18.1xx目前有问题。暂时更换184.50.87.50吧。
 gs2.ww.prod.dl.playstation.net    负责PS4数字版、补丁、DEMO等等
-ena.net.playstation.net                负责PS4网络测试里的上传，如果你上传不理想，有一部分的原因是它的延迟大了。
+ena.net.playstation.net               负责PS4网络测试里的上传，如果你上传不理想，有一部分的原因是它的延迟大了。
+post.net.playstation.net  
 get.net.playstation.net                负责PS4网络测试里的下载，原理同上。
 ares.dl.playstation.net                 负责PS3游戏DEMO，商店客户端之类的。
 zeus.dl.playstation.net                 负责PS3数字版。
 b0.ww.np.dl.playstation.net         负责PS3游戏补丁
+gs-sec.ww.np.dl.playstation.net     负责ps4的正版游戏下载
 
 ares是下载PS3试玩版游戏用的，所有“试玩+制品版解锁=制品版”的游戏的本体也是用这个域名下载，所以使用得并不少。
 zeus只下载PS3游戏制品版，不下载试玩版。
