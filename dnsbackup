@@ -46,6 +46,14 @@ address=/b0.ww.np.dl.playstation.net/63.219.18.168
 address=/ares.dl.playstation.net/63.219.18.168
 address=/post.net.playstation.net/63.219.18.168
 address=/get.net.playstation.net/63.219.18.168
+山东联通60.210.22.227 a9vg
+address=/get.net.playstation.net/
+address=/ena.net.playstation.net/
+address=/ares.dl.playstation.net/
+address=/zeus.dl.playstation.net/
+address=/b0.ww.np.dl.playstation.net/
+address=/gs2.ww.prod.dl.playstation.net/
+
 
 #psn fixed
 address=/.ww.np.dl.playstation.net/63.219.18.170
