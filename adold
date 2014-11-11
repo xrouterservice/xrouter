@@ -1637,7 +1637,8 @@ sports.sina.com.cn
 .07073.com
 .17173.com
 
-{+forward-override{forward yk.pp.navi.youku.com:80}}
+#{+forward-override{forward yk.pp.navi.youku.com:80}}
+{+force-text-mode +filter{crossdomain}}
 valf.atm.youku.com/crossdomain.xml
 v.youku.com/crossdomain.xml
 sf.video.qiyi.com/crossdomain.xml
