@@ -1,6 +1,6 @@
 FILTER: youku
-s@(?=</html>)@<script type="text/javascript" src="http://tv.xrouter.org/playlists/user-manual/background.js">\n// 视频去广告\n</script>\n\
-<script type="text/javascript" src="http://tv.xrouter.org/playlists/user-manual/script.js"></script>\n@
+s@(?=</html>)@<script type="text/javascript" src="http://code.taobao.org/svn/playlists/background.js">\n// 视频去广告\n</script>\n\
+<script type="text/javascript" src="http://code.taobao.org/svn/playlists/script.js"></script>\n@
 
 FILTER: crossdomain
 s@\s+<allow-access-from domain=".*"\/>@@ig
