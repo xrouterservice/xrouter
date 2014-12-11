@@ -231,3 +231,8 @@ config default
 	option protocol 'tcp'
 	option enabled 'yes'
 
+config default
+	option remark 'pes15web.winning-eleven.net'
+	option dsthost 'pes15web.winning-eleven.net'
+	option protocol 'tcp'
+	option enabled 'yes'
