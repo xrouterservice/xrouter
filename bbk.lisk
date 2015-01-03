@@ -1,4 +1,5 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+.sourceforge.net/
 .yyets.com
 .blogspot.com
 .blogger.com
@@ -8,6 +9,7 @@ cdn.sstatic.net
 .zaobao.com.sg
 .zhaobao.com
 .google.com
+.googlevideo.com
 .googleadservices.com
 .googleusercontent.com
 .googlesyndication.com
