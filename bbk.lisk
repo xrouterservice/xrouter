@@ -1,5 +1,6 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
-.sourceforge.net/
+cdn.flipboard.com
+.sourceforge.net
 .yyets.com
 .blogspot.com
 .blogger.com
