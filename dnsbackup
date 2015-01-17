@@ -80,6 +80,15 @@ address=/psm-resource.np.dl.playstation.net/63.219.18.170
 address=/post.net.playstation.net/63.219.18.170
 address=/get.net.playstation.net/63.219.18.170
 
+23.46.11.80  get.net.playstation.net
+23.46.11.80  ena.net.playstation.net
+23.46.11.80  *.ps4.update.playstation.net
+23.46.11.80  *.ps3.update.playstation.net
+23.46.11.80  b0.ww.np.dl.playstation.net
+23.46.11.80  gs2.ww.prod.dl.playstation.net
+23.46.11.80  zeus.dl.playstation.net
+23.46.11.80  ares.dl.playstation.net
+
 #new
 spurious-ip=0.0.0.0
 spurious-ip=2.1.1.2
