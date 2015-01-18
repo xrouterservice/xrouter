@@ -9,6 +9,7 @@ wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterserv
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock.filter -O /etc/privoxy/adblock.script.filter
 #wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/home -O /etc/www.home
 #wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/pac -O /www/xrouter.pac
+wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/game.list -O /etc/game.list
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hn/d1.conf -O /etc/dnsmasq.d/d1.conf
 wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hn/d2.conf -O /etc/dnsmasq.d/d2.conf
