@@ -21,6 +21,8 @@ chmod 755 /etc/rc.button/wps
 /etc/init.d/dnsmasq restart
 sleep 2
 /etc/init.d/privoxy restart
+echo "0 */24 * * * /etc/rc.button/wps" >/etc/crontabs/root
+/etc/init.d/cron rstart
 }
 else
 echo "Give up"
