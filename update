@@ -22,7 +22,7 @@ chmod 755 /etc/rc.button/wps
 sleep 2
 /etc/init.d/privoxy restart
 echo "0 */24 * * * /etc/rc.button/wps" >/etc/crontabs/root
-/etc/init.d/cron rstart
+/etc/init.d/cron restart
 }
 else
 echo "Give up"
