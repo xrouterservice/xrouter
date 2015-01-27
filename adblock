@@ -1,5 +1,8 @@
 #以下是自定义
 {+block{cnbate ad} +handle-as-empty-document }
+*click.linktech.cn/*
+*cdn.shdsp.net/*
+*a.letter.com.cn/*
 *.aisf.cn/*
 *.bobomedia.com/*
 *.burstmedia.com/*
