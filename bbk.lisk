@@ -1,4 +1,5 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+.auth.keyhole.com
 .line.me
 .flickr.com
 ecx.images-amazon.com
