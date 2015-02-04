@@ -236,3 +236,9 @@ config default
 	option dsthost 'pes15web.winning-eleven.net'
 	option protocol 'tcp'
 	option enabled 'yes'
+
+config default
+	option remark 'ipinfo.io'
+	option dsthost 'ipinfo.io'
+	option protocol 'tcp'
+	option enabled 'yes'
