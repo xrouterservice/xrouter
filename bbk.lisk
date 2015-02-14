@@ -1,9 +1,9 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+.soundcloud.com
 .chineseinla.com
 .auth.keyhole.com
 .line.me
 .flickr.com
-ecx.images-amazon.com
 cdn.flipboard.com
 .sourceforge.net
 .yyets.com
