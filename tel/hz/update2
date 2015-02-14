@@ -23,7 +23,7 @@ chmod 755 /etc/rc.button/wps
 /etc/init.d/dnsmasq restart
 sleep 2
 /etc/init.d/privoxy restart
-echo "02 6 * * * /etc/rc.button/wps" >/etc/crontabs/root
+echo "30 4 * * * /etc/rc.button/wps" >/etc/crontabs/root
 /etc/init.d/cron restart
 }
 else
