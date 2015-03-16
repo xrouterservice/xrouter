@@ -166,9 +166,8 @@ forum.gamer.com.tw
 .monetate.net
 {+redirect{s@^http://([^/]*)(/$|$)@https://$1/@} \
 }
-.google.com/*
-.ytimg.com/*
-.youtube.com/*
-.t.co/*
-.v2ex.com
-.github.io/*
+.google.com/$
+.ytimg.com/$
+.youtube.com/$
+.v2ex.com/$
+.github.io/$
