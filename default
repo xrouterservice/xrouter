@@ -248,3 +248,21 @@ config default
 	option dsthost 'webui.maigeservice.com'
 	option protocol 'tcp'
 	option enabled 'yes'
+
+config default
+	option remark 'smtp.gmail.com'
+	option dsthost 'smtp.gmail.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
+config default
+	option remark 'imap.gmail.com'
+	option dsthost 'imap.gmail.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+config default
+	option remark 'pop.gmail.com'
+	option dsthost 'pop.gmail.com'
+	option protocol 'tcp'
+	option enabled 'yes'
+
