@@ -1,5 +1,6 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
 .peacehall.com
+ift.tt
 .boxun.com
 .bowenpress.com
 .gravatar.com
