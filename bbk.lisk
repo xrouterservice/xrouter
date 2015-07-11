@@ -1,4 +1,7 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+.peacehall.com
+.boxun.com
+.bowenpress.com
 .gravatar.com
 .soundcloud.com
 .chineseinla.com
@@ -87,7 +90,8 @@ code.google.com/p/goagent/
 .fqrt.4pu.com
 notify*.dropbox.com
 .hikinggfw.org
-bbc.co.uk
+.bbc.com
+.bbc.co.uk
 .bbc.in
 .shadowsocks.org
 .chinagfw.org
@@ -119,6 +123,8 @@ mfile.akamai.com
 8tracks.com
 #.beatsmusic.com
 #game
+.gamebase.com.tw
+.u2game.net
 .ffxiv.com
 .ffxiv.consolegameswiki.com
 .ustream.tv
@@ -163,7 +169,7 @@ img.m-team.cc
 ehgt.org
 #.fastly.*
 .officedepot.com
-forum.gamer.com.tw
+.gamer.com.tw
 .line.me
 .line.naver.jp
 #shop
