@@ -1,4 +1,5 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+lvv2.com
 .peacehall.com
 ift.tt
 .boxun.com
