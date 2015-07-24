@@ -249,5 +249,9 @@ config default
 	option protocol 'tcp'
 	option enabled 'yes'
 
-
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'hktv'
+	option dsthost '14.198.244.0/22'
 
