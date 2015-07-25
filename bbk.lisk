@@ -32,7 +32,7 @@ cdn.sstatic.net
 .googleapis.com
 .gstatic.com
 .googletagmanager.com
-www.google-analytics.com
+.google-analytics.com
 play.google.com/store/apps
 android.clients.google.com
 android.l.google.com
@@ -45,12 +45,7 @@ youtu.be
 .ytimg.*
 .appspot.com
 goo.gl
-.google.com.*/search?
-.google.com.*/url?
 plus.google.com
-#.google.com/url?
-.google.com/sorry/?
-.google.com.hk/sorry/?
 .googleusercontent.com
 igfw.*
 aria2.sourceforge.net
@@ -67,11 +62,10 @@ fb.me
 i2p2.de
 .twimg.*
 .bitbucket.org
-#.smilevideo.jp/smile?i=*
-#.nicovideo.jp/smile?m=*
-.nicovideo.jp/watch/*
+.smilevideo.jp
+.nicovideo.jp
+.nimg.jp
 .blogspot.com
-code.google.com/p/goagent/
 .tumblr.com
 .feedly.
 .wenxuecity.
