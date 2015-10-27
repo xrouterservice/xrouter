@@ -254,4 +254,27 @@ config default
 	option enabled 'yes'
 	option remark 'hktv'
 	option dsthost '14.198.244.0/22'
+	
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'Telegram'
+	option dsthost '91.108.56.0/22'
 
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'Telegram'
+	option dsthost '91.108.4.0/22'
+	
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'Telegram'
+	option dsthost '109.239.140.0/24'
+
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'Telegram'
+	option dsthost '149.154.160.0/20'
