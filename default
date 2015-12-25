@@ -243,11 +243,6 @@ config default
 	option protocol 'tcp'
 	option enabled 'yes'
 
-config default
-	option remark 'webui.maigeservice.com'
-	option dsthost 'webui.maigeservice.com'
-	option protocol 'tcp'
-	option enabled 'yes'
 
 config default
 	option protocol 'tcp'
