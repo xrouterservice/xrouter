@@ -273,3 +273,9 @@ config default
 	option enabled 'yes'
 	option remark 'Telegram'
 	option dsthost '149.154.160.0/20'
+	
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'line'
+	option dsthost '159.106.121.0/24'
