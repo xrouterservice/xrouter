@@ -1,4 +1,6 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
+.books.com.tw
+.pixnet.net
 .ipspace.net
 .letscorp.net
 .ttvnw.net
