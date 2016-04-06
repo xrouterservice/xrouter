@@ -1,22 +1,22 @@
 #!/bin/sh
 
-if ping ping.xrouter.us -c 1 | grep -c "64 bytes from" ; then  
+if ping pingping.xrouter.us -c 1 | grep -c "64 bytes from" ; then  
 {
 mkdir -p /etc/dnsmasq.d
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/update2 -O /etc/rc.button/wps
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock.filter -O /etc/privoxy/adblock.script.filter
-#wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/home -O /etc/www.home
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/game.list -O /etc/game.list
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/d1.conf -O /etc/dnsmasq.d/d1.conf
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/d2.conf -O /etc/dnsmasq.d/d2.conf
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/d3.conf -O /etc/dnsmasq.d/d3.conf
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/t1.conf -O /etc/dnsmasq.d/t1.conf
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
-wget -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/whitelist -O /etc/privoxy/whitelist
-#playlists
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/update2 -O /etc/rc.button/wps
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock.filter -O /etc/privoxy/adblock.script.filter
+#wget-e "https_proxy=http://127.0.0.1:81"  -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/home -O /etc/www.home
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/game.list -O /etc/game.list
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.conf -O /etc/dnsmasq.conf
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/d1.conf -O /etc/dnsmasq.d/d1.conf
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/d2.conf -O /etc/dnsmasq.d/d2.conf
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/tel/hz/d3.conf -O /etc/dnsmasq.d/d3.conf
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/t1.conf -O /etc/dnsmasq.d/t1.conf
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/default -O /etc/config/tunnelrule
+wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/whitelist -O /etc/privoxy/whitelist
+#play lists
 #wget -mrbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists/ -P /usr/share/xupnpd/playlists
 sleep 2
 chmod 755 /etc/rc.button/wps
