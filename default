@@ -279,3 +279,9 @@ config default
 	option enabled 'yes'
 	option remark 'line'
 	option dsthost '159.106.121.0/24'
+
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
+	option remark 'PSO2'
+	option dsthost '210.189.208.0/23'
