@@ -32,6 +32,12 @@ config default
 config default
 	option protocol 'tcp'
 	option enabled 'yes'
+	option remark 'jieba5'
+	option dsthost '209.58.134.0/24'
+
+config default
+	option protocol 'tcp'
+	option enabled 'yes'
 	option remark 'squeezenetwork'
 	option dsthost 'baby.squeezenetwork.com'
 
