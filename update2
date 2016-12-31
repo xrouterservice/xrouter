@@ -3,6 +3,7 @@
 if ping pingping.xrouter.us -c 3 | grep -c "64 bytes from" ; then  
 {
 mkdir -p /etc/dnsmasq.d
+wget -e "https_proxy=http://127.0.0.1:81" -q --no-check-certificate --spider https://raw.githubusercontent.com/xrouterservice/xrouter/master/home || exit 0
 wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/update2 -O /etc/rc.button/wps
 wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/bbk.lisk -O /etc/privoxy/black.action
 wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock -O /etc/privoxy/adblock.script.action
