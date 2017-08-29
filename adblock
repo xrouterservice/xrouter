@@ -92,5 +92,18 @@ pix*.revsci.net/*
 cdn.krxd.net/*
 *.tx8688.com/*
 *.tx908.com/*
+html.atm.youku.com/html*
+hz.youku.com/red/ggnotice.php
+pl2.youku.com/playlist/m3u8?ids=
+static.atm.youku.com/idea/201*.jpg
+static.atm.youku.com/miaozhen/mz_ad_
+static.atm.youku.com/YouKu2014/201
+static.youku.com/index/js/ikuAdapterNew.js*
+static.youku.com/v1.*/index/js/ikuAdapterNew.js
+.gamex.mobile.youku.com*
+.guanggaoad.youku.com*
+.static.arm.youku.com/idea/*
+{+redirect{s@^http://youku.*com|.*.swf@http://koolshare.b0.upaiyun.com/kp/swf/dszw/youku.swf@}}
+.static.youku.com/*
 
 
