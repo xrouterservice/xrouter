@@ -19,10 +19,10 @@ wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://
 wget -e "https_proxy=http://127.0.0.1:81" -bqt 0 --no-check-certificate https://raw.githubusercontent.com/xrouterservice/xrouter/master/whitelist -O /etc/privoxy/whitelist
 #playlists
 #wget -mrbqt 0 -nd -np -k -L -p -A m3u tv.xrouter.org/playlists/ -P /usr/share/xupnpd/playlists
-sleep 2
+sleep 7
 chmod 755 /etc/rc.button/wps
 /etc/init.d/dnsmasq restart
-sleep 2
+sleep 7
 /etc/init.d/privoxy restart
 echo "55 4 * * * /etc/rc.button/wps" >/etc/crontabs/root
 /etc/init.d/cron restart
