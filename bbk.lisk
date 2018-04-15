@@ -1,5 +1,4 @@
 {+forward-override{forward-socks5 localhost:8888 .}}
-www.xrouter.us
 .vmblog.com
 .books.com.tw
 .pixnet.net
