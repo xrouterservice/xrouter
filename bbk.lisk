@@ -198,6 +198,8 @@ ehgt.org
 .nordstrom.com
 .nordstromimage.com
 .monetate.net
+.aboluowang.com
+.iask.ca
 {+redirect{s@^http://([^/]*)(/$|$)@https://$1/@} \
 }
 .google.com/$
