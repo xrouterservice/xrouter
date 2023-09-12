@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if ping pingping.xrouter.us -c 3 | grep -c "64 bytes from" ; then  
+if ping qq.com -c 3 | grep -c "64 bytes from" ; then  
 {
 mkdir -p /etc/dnsmasq.d
 
