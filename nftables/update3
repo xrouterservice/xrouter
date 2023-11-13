@@ -9,11 +9,11 @@ curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.github
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock -o /etc/privoxy/adblock.script.action &
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/adblock.filter -o /etc/privoxy/adblock.script.filter &
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/game.list -o /etc/game.list &
-curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/nftables/dnsmasq.conf -o /etc/dnsmasq.conf &
+curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/regdns.conf -o /etc/dnsmasq.conf &
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/d1.conf -o /etc/dnsmasq.d/d1.conf &
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/d2.conf -o /etc/dnsmasq.d/d2.conf &
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/d3.conf -o /etc/dnsmasq.d/d3.conf &
-curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/nftables/t1.conf -o/etc/dnsmasq.d/t1.conf &
+curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/dnsmasq.d/regnft.conf -o/etc/dnsmasq.d/t1.conf &
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/default -o /etc/config/tunnelrule &
 curl --retry 2 --connect-time 5 -ksx socks5h://127.0.0.1:8888 https://raw.githubusercontent.com/xrouterservice/xrouter/master/nftables/alllist -o /etc/alllist &
 
